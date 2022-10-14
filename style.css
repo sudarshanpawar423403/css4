@@ -1,0 +1,143 @@
+#container-1{
+    text-decoration: underline;
+    text-align: center;
+    background: linear-gradient(to right, red, green, yellow);
+    font-weight: bold;
+    width: 100%;
+}
+#container-2{
+    background-color: rgb(108, 161, 218);
+    border: 5px solid red;
+    border-radius: 5px;
+    margin: 15px;
+    width: 50vw;
+    text-align: center;
+}
+#container-3{
+    background-color: rgb(118, 249, 205);
+    border: 5px solid rgb(145, 41, 145);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.three-sub-containers{
+    border: 3px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    
+
+}
+#container-4{
+    background: radial-gradient(circle, yellow, red);
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    margin: 10px 0px;
+}
+#container-5{
+    background: radial-gradient(blue, green);
+    border: 5px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+}
+.display-containers{
+    background-color: rgb(255, 255, 0);
+    border: 3px solid purple;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: underline;
+    width: 15%;
+
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 1fr;
+    grid-template-rows: 30px 60px 200px 20px;
+    grid-gap: 15px;
+    padding: 10px 0px;
+    
+}
+.grid-div-1{
+    background-color: red;
+    color: white;
+    padding-bottom: 3px;
+    text-align: center;
+    grid-column: 1/5;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.grid-div-2{
+    background-color: rgb(69, 229, 57);
+    color: white;
+    
+    text-align: center;
+    grid-column: 1/2;
+    font-size: 25px;
+    padding: 5px 30px;
+
+}
+.grid-div-3{
+    background-color: rgb(43, 36, 246);
+    color: white;
+    
+    
+    grid-column: 2/3;
+    font-size: 25px;
+    
+
+}
+.grid-div-4{
+    background-color: rgb(17, 13, 147);
+    color: white;
+    
+    padding-right: 45%;
+    grid-column: 3/4;
+    font-size: 18px;
+    
+
+}
+.grid-div-5{
+    background-color: black;
+    color: white;
+    grid-column: 4/5;
+    font-size: 16px;
+    height: 275px;
+    text-align: left;
+    font-size: 13px;
+    padding-right: 50px;
+    
+    
+
+}
+.grid-div-6{
+    background-color: rgb(219, 144, 16);
+    color: white;
+    font-size: 20px;
+    
+   
+    grid-column: 1/4;
+    
+    
+
+}
+.grid-div-7{
+    background-color: rgb(90, 193, 237);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+   
+    grid-column: 1/5;
+    
+    
+
+}
